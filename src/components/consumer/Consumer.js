@@ -14,7 +14,7 @@ const Consumer = () => {
   return (
     <div className="flex">
       <div className="home w-[25%]">
-        <img src={img5} alt="" className="w-[290px]" />
+        <img src={img5} alt="" className="" />
       </div>
       <div className="flex flex-col w-[229px] px-4">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
