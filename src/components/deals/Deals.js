@@ -9,7 +9,7 @@ import img4 from '../Assets/pc5.jpg';
 
 const Deals = () => {
   return (
-    <div className="flex py-4 font-inter">
+    <div className="flex py-4 font-inter flex-wrap">
       <div className="px-4 shadow-lg w-[290px] py-6 leading-5">
         <h1 className="text-[17px] font-bold">Deals and offers</h1>
         <p className="text-[10px]">Hygience equipment</p>
@@ -32,7 +32,7 @@ const Deals = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center gap-7">
+      <div className="flex items-center gap-7 flex-wrap">
         <div className="text-center border-gray-200 shadow-lg w-[159px] h-[195px] py-6">
           <img src={img1} alt="" className="w-[90px] m-auto" />
           <p>smart watches</p>

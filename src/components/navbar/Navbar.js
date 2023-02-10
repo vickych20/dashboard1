@@ -10,7 +10,7 @@ import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () => {
   return (
-    <div className="overflow-hidden w-[1200px] m-auto">
+    <div className="overflow-hidden max-w-[1200px] m-auto">
       <div className="flex justify-center items-center md:py-1 h-[85px] max-2xl:justify-between  min-sm:justify-between">
         <div className="flex items-center gap-2">
           <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[50px] w-[50px]" />

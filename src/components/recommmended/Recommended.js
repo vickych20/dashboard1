@@ -13,7 +13,7 @@ const Recommended = () => {
           <h1 className="text-[20px] font-bold p-4">Recommended items</h1>
         </div>
 
-        <div className="flex items-center justify-around">
+        <div className="flex items-center justify-around flex-wrap">
           <div className="w-[210px] h-[270px] border-[2px] border-gray-200 shadow-sm">
             <img src={img9} alt="" className="w-[140px] m-auto mt-4" />
             <div className="px-4 mt-[40px]">

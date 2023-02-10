@@ -13,7 +13,7 @@ const Our = () => {
         <h1 className="font-bold p-4">Our Extra service</h1>
       </div>
 
-      <div className="flex items-center justify-around">
+      <div className="flex items-center justify-around flex-wrap">
         <div className="w-[250px] h-[180px] border-[1px]">
           <img src={img1} alt="" />
           <span>

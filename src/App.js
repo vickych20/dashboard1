@@ -13,7 +13,7 @@ import Llast from "./components/Llast";
 
 const App = () => {
   return (
-    <div className="w-[1200px] m-auto overflow-x-hidden">
+    <div className="max-w-[1200px] m-auto overflow-x-hidden">
       <Router>
         <Navbar />
 

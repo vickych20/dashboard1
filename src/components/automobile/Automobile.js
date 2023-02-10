@@ -5,9 +5,9 @@ import { IoMdPeople } from "react-icons/io";
 
 const Automobile = () => {
   return (
-    <div className="shadow-lg max-md:flex-col flex justify-center items-center md:py-1  max-2xl:justify-between  min-sm:justify-between gap-4">
+    <div className="shadow-lg max-md:flex-col flex justify-center items-center md:py-1  max-2xl:justify-between  min-sm:justify-between gap-4 flex-wrap">
       <div className="w-[240px]">
-        <ul className="max-md:flex max-md:gap-5 max-md:scroll-mx-0 overflow-x-scroll">
+        <ul className="max-md:hidden max-md:gap-5 max-md:scroll-mx-0 overflow-x-scroll">
           <li className="my-2">Automobile</li>
           <li className="py-1 hover:bg-[#C7E1FF] hover:">Clothes and wear</li>
           <li className="py-1 hover:bg-[#C7E1FF] hover:">Home interiors</li>
@@ -22,7 +22,7 @@ const Automobile = () => {
       <div className="py-2">
         <img src={img1} alt="" />
       </div>
-      <div className="py-2 max-md:flex md:justify-around small max-sm:justify-center max-md:items-center">
+      <div className="py-2 max-md:flex md:justify-around small max-sm:justify-center max-md:justify-center">
         <div className="bg-gray-300 p-8 rounded-lg w-[200px] my-2">
           <span className="flex gap-4">
             <IoMdPeople className="text-[#fff] rounded-3xl text-[15px] bg-red-500 w-[30px] h-[20px]" />

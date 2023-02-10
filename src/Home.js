@@ -15,7 +15,7 @@ import Recommened from "./components/recommened/Recommened";
 
 const Home = () => {
   return (
-    <div className="w-[1200px] m-auto overflow-x-hidden">
+    <div className="max-w-[1200px] m-auto overflow-x-hidden">
       <Automobile />
       <Deals />
       <Homeoutdoor />
