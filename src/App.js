@@ -13,7 +13,7 @@ import Llast from "./components/Llast";
 
 const App = () => {
   return (
-    <div className="w-[1000px] m-auto">
+    <div className="w-[1200px] m-auto overflow-x-hidden">
       <Router>
         <Navbar />
 
@@ -24,8 +24,8 @@ const App = () => {
           <Route path="/service" element={<Service />} />
           <Route path="/last" element={<Llast />} />
         </Routes>
-        <Subscribe/>
-        <Footer/>
+        <Subscribe />
+        <Footer />
       </Router>
     </div>
   );

@@ -4,7 +4,7 @@ import './easy.css';
 const Easy = () => {
   return (
     <div className="btn flex items-center justify-center">
-      <div className='w-[40%]'>
+      <div className="w-[40%]">
         <h1 className="text-[30px] font-bold text-[#fff] px-[10px]">
           An easy way to send request to all suppliers
         </h1>
@@ -13,13 +13,14 @@ const Easy = () => {
           assumenda{" "}
         </p>
       </div>
-      <div className="bg-[#fff] w-[40%] px-[30px] max-md:hidden">
+      <div className="bg-[#fff] w-[50%] px-[30px] max-md:hidden p-4">
         <h1 className="text-[20px] font-bold">send quote to suppliers</h1>
-        <input
+        <input type="text" placeholder="what item you need " className="border-[1px] border-gray-300 outline-none p-2 mb-2 w-[494px]" />
+        {/* <input
           type=""
           placeholder="what item you need ? "
-          className="border-[1px] border-gray-300 outline-none px-[135px] items-start py-1 mb-4 rounded-md"
-        />
+          className="border-[1px] border-gray-300 outline-none px-[135px] py-1 mb-4 rounded-md flex items-start justify-start"
+        /> */}
         <br />
         <textarea
           name=""

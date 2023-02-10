@@ -15,87 +15,95 @@ import img9 from '../Assets/ii2.png'
 
 const Homeoutdoor = () => {
   return (
-    <div className="flex shadow-lg">
-      <div className="home w-[280px] h-[257px]">
-       <img src ={img5} alt="" className=''/>
+    <div className="flex">
+      <div className="home w-[25%]">
+        <img src={img5} alt="" className="w-[290px]" />
       </div>
-      <div className="flex flex-col w-[140px]">
-        <div className="flex items-start justify-center py-7 gap-[20px] border-[1px] border-gray-400">
-          <div className="px-4 text-[13px]">
-            <p className="font-bold">Soft chairs</p>
-            <span className=''>from 19</span>
+      <div className="flex flex-col w-[229px] px-4">
+        <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
           </div>
           <div>
-            <img src={img9} alt="" className="w-[100px]" />
+            <img src={img9} alt="" className="w-[50px]" />
           </div>
         </div>
-        <div className="flex items-center gap-[20px] py-7 border-[1px] border-gray-400">
-          <div className='px-4'>
-            <p className="font-bold">Kitchen mixture</p>
-            <span>from 190</span>
+        <div className="flex items-start justify-between py-7 gap-[20px] border-[1px] border-gray-200 h-[133px] w-[199px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
           </div>
           <div>
-            <img src={img1} alt="" className="w-[110px] p-2" />
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col">
-        <div className="flex items-start justify-center py-7 gap-[20px] border-[1px] border-gray-400">
-          <div className="px-4">
-            <p className="font-bold">Soft chairs</p>
-            <span>from 19</span>
-          </div>
-          <div>
-            <img src={img8} alt="" className="w-[100px]" />
-          </div>
-        </div>
-        <div className="flex items-center gap-[20px] py-7 border-[1px] border-gray-400">
-          <div className='px-4'>
-            <p className="font-bold">Kitchen mixture</p>
-            <span>from 190</span>
-          </div>
-          <div>
-            <img src={img2} alt="" className="w-[110px] p-2" />
+            <img src={img1} alt="" className="w-[50px]" />
           </div>
         </div>
       </div>
-      <div className="flex flex-col">
-        <div className="flex items-start justify-center py-7 gap-[20px] border-[1px] border-gray-400">
-          <div className="px-4">
-            <p className="font-bold">Soft chairs</p>
-            <span>from 19</span>
+      <div className="flex flex-col w-[229px] px-4">
+        <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
           </div>
           <div>
-            <img src={img3} alt="" className="w-[100px]" />
+            <img src={img7} alt="" className="w-[50px]" />
           </div>
         </div>
-        <div className="flex items-center gap-[20px] py-7 border-[1px] border-gray-400">
-          <div className='px-4'>
-            <p className="font-bold">Kitchen mixture</p>
-            <span>from 190</span>
+        <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
           </div>
           <div>
-            <img src={img4} alt="" className="w-[110px] p-2" />
+            <img src={img8} alt="" className="w-[50px]" />
           </div>
         </div>
       </div>
-      <div className="flex flex-col">
-        <div className="flex items-start justify-center py-7 gap-[20px] border-[1px] border-gray-400">
-          <div className="px-4">
-            <p className="font-bold">Soft chairs</p>
-            <span>from 19</span>
+      <div className="flex flex-col w-[229px] px-4">
+        <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
           </div>
           <div>
-            <img src={img6} alt="" className="w-[100px]" />
+            <img src={img4} alt="" className="w-[50px]" />
           </div>
         </div>
-        <div className="flex items-center gap-[20px] py-7 border-[1px] border-gray-400">
-          <div className='px-4'>
-            <p className="font-bold">Kitchen mixture</p>
-            <span>from 190</span>
+        <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
           </div>
           <div>
-            <img src={img7} alt="" className="w-[110px] p-2" />
+            <img src={img6} alt="" className="w-[50px]" />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-[229px] px-4">
+        <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
+          </div>
+          <div>
+            <img src={img2} alt="" className="w-[50px]" />
+          </div>
+        </div>
+        <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
+          <div className="p-4 text-[13px]">
+            <p className="font-500">Soft chairs</p>
+            <p className="text-[9px] font-bold text-gray-400">from</p>
+            <p className="text-[9px] font-bold text-gray-400">USD 19</p>
+          </div>
+          <div>
+            <img src={img3} alt="" className="w-[50px]" />
           </div>
         </div>
       </div>

@@ -11,22 +11,21 @@ import Our from "./components/our/Our";
 import Suppliear from "./components/suppliear/Suppliear";
 import Subscribe from "./components/subscribe/Subscribe";
 import Footer from "./components/footer/Footer";
+import Recommened from "./components/recommened/Recommened";
 
 const Home = () => {
   return (
-    <div className="">
-      
+    <div className="w-[1200px] m-auto overflow-x-hidden">
       <Automobile />
       <Deals />
       <Homeoutdoor />
       <Consumer />
       <Easy />
       <Recommended />
-      <Recomm />
+      <Recommened />
+     
       <Our />
       <Suppliear />
-      
-     
     </div>
   );
 };
