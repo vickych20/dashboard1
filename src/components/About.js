@@ -9,7 +9,7 @@ import Mcard from "./pages/Mcard";
 const About = () => {
   return (
     <div className="overflow-x-hidden leading-8 mx-[5rem]">
-      <div className="flex items-start justify-start gap-4 text-[#a3a2a2] py-4">
+      <div className="flex items-start justify-start gap-4 text-[#a3a2a2] py-4 max-sm:hidden">
         <div className="flex items-center gap-2">
           <p>Home</p>
           <AiOutlineRight className="text-[12px]" />

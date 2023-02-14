@@ -10,12 +10,12 @@ import { AiFillStar } from "react-icons/ai";
 
 const Mcard = () => {
     return (
-      <div className='max-sm:w-full'>
+      <div className="max-sm:w-full about">
         <div className="flex items-center shadow border-[1px] border-gray-400 mt-4  w-full max-md:w-full cg">
-          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases max-sm:leading-3">
-            <img src={img2} alt="" className="max-w-[150px]" />
+          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases max-sm:leading-4 max-sm:w-[95px]">
+            <img src={img2} alt="" className="max-w-[150px] max-md:w-[100px]" />
           </div>
-          <div className=" flex-wrap max-sm:leading-3 ">
+          <div className=" flex-wrap max-sm:leading-5 ">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
@@ -32,10 +32,12 @@ const Mcard = () => {
               <AiFillStar />
               <AiFillStar />
               <AiFillStar />
-              <span className="text-[14px]">154 ordersd</span>
-              <span className="text-[#31d898] text-[16px]">Free Shipping</span>
+              <span className="text-[14px] max-md:hidden ">154 ordersd</span>
+              <span className="text-[#31d898] text-[16px] max-md:hidden ">
+                Free Shipping
+              </span>
             </p>
-            <p className="max-md:text-[10px] flex-wrap flex">
+            <p className="max-md:hidden flex-wrap flex">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -44,10 +46,10 @@ const Mcard = () => {
           </div>
         </div>
         <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 w-full max-md:w-full cg">
-          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases ">
-            <img src={img3} alt="" className="max-w-[150px]" />
+          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases max-sm:w-[95px]">
+            <img src={img3} alt="" className="max-w-[150px] max-md:w-[100px]" />
           </div>
-          <div className=" flex-wrap">
+          <div className=" flex-wrap max-sm:leading-5">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
@@ -64,10 +66,12 @@ const Mcard = () => {
               <AiFillStar />
               <AiFillStar />
               <AiFillStar />
-              <span className="text-[14px]">154 ordersd</span>
-              <span className="text-[#31d898] text-[16px]">Free Shipping</span>
+              <span className="text-[14px] max-md:hidden">154 ordersd</span>
+              <span className="text-[#31d898] text-[16px] max-md:hidden">
+                Free Shipping
+              </span>
             </p>
-            <p className="leading-5 max-md:text-[10px]">
+            <p className="leading-5 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -76,10 +80,10 @@ const Mcard = () => {
           </div>
         </div>
         <div className="flex items-center shadow border-[1px] border-gray-400 mt-4  w-full max-md:w-full cg">
-          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases leading-3">
-            <img src={img4} alt="" className="max-w-[150px]" />
+          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases leading-3 max-sm:w-[95px]">
+            <img src={img4} alt="" className="max-w-[150px] max-md:w-[100px]" />
           </div>
-          <div className="flex-wrap">
+          <div className="flex-wrap max-sm:leading-5">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
@@ -96,10 +100,12 @@ const Mcard = () => {
               <AiFillStar />
               <AiFillStar />
               <AiFillStar />
-              <span className="text-[14px]">154 ordersd</span>
-              <span className="text-[#31d898] text-[16px]">Free Shipping</span>
+              <span className="text-[14px] max-md:hidden">154 ordersd</span>
+              <span className="text-[#31d898] text-[16px] max-md:hidden">
+                Free Shipping
+              </span>
             </p>
-            <p className="leading-5 max-md:text-[10px]">
+            <p className="leading-5 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -108,10 +114,10 @@ const Mcard = () => {
           </div>
         </div>
         <div className="flex items-center shadow border-[1px] border-gray-400 mt-4  w-full max-md:w-full cg">
-          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases leading-3">
-            <img src={img5} alt="" className="max-w-[150px]" />
+          <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases leading-5 max-sm:w-[95px]">
+            <img src={img5} alt="" className="max-w-[150px] max-md:w-[100px]" />
           </div>
-          <div className="flex-wrap">
+          <div className="flex-wrap max-sm:leading-5">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
@@ -128,10 +134,12 @@ const Mcard = () => {
               <AiFillStar />
               <AiFillStar />
               <AiFillStar />
-              <span className="text-[14px]">154 ordersd</span>
-              <span className="text-[#31d898] text-[16px]">Free Shipping</span>
+              <span className="text-[14px] max-md:hidden">154 ordersd</span>
+              <span className="text-[#31d898] text-[16px] max-md:hidden">
+                Free Shipping
+              </span>
             </p>
-            <p className="leading-5 max-md:text-[10px]">
+            <p className="leading-5 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -140,10 +148,10 @@ const Mcard = () => {
           </div>
         </div>
         <div className="flex items-center shadow border-[1px] border-gray-400 mt-4  w-full max-md:w-full cg">
-          <div className="w-[150px] shrink-0 grow-0 flex flex-wrap clases">
-            <img src={img6} alt="" className="max-w-[150px]" />
+          <div className="w-[150px] shrink-0 grow-0 flex flex-wrap clases max-sm:w-[95px]">
+            <img src={img6} alt="" className="max-w-[150px] max-md:w-[100px]" />
           </div>
-          <div className="flex-wrap">
+          <div className="flex-wrap max-sm:leading-5">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
@@ -160,10 +168,12 @@ const Mcard = () => {
               <AiFillStar />
               <AiFillStar />
               <AiFillStar />
-              <span className="text-[14px]">154 ordersd</span>
-              <span className="text-[#31d898] text-[16px]">Free Shipping</span>
+              <span className="text-[14px] max-md:hidden">154 ordersd</span>
+              <span className="text-[#31d898] text-[16px] max-md:hidden">
+                Free Shipping
+              </span>
             </p>
-            <p className="leading-5 max-md:text-[10px]">
+            <p className="leading-5 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -172,10 +182,14 @@ const Mcard = () => {
           </div>
         </div>
         <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 w-full max-md:w-full cg max-sm:leading-3">
-          <div className="w-[150px] shrink-0 grow-0 flex flex-wrap clases">
-            <img src={img1} alt="" className="max-w-[140px] px-4" />
+          <div className="w-[150px] shrink-0 grow-0 flex flex-wrap clases max-sm:w-[95px]">
+            <img
+              src={img1}
+              alt=""
+              className="max-w-[140px] px-4 max-md:w-[100px]"
+            />
           </div>
-          <div className="flex-wrap w-full shrink grow">
+          <div className="flex-wrap w-full shrink grow max-sm:leading-5">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
@@ -192,10 +206,12 @@ const Mcard = () => {
               <AiFillStar />
               <AiFillStar />
               <AiFillStar />
-              <span className="text-[14px]">154 ordersd</span>
-              <span className="text-[#31d898] text-[16px]">Free Shipping</span>
+              <span className="text-[14px] max-md:hidden">154 ordersd</span>
+              <span className="text-[#31d898] text-[16px] max-md:hidden">
+                Free Shipping
+              </span>
             </p>
-            <p className="leading-5 max-md:text-[10px]">
+            <p className="leading-5 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
