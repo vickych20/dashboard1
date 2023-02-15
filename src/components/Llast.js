@@ -145,7 +145,7 @@ const Llast = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-around">
+      <div className="flex flex-wrap items-center justify-around max-md:hidden">
         <div className="flex items-center gap-3">
           <div className="w-[50px] h-[50px] bg-gray-300 rounded-full px-[17px] py-[15px]">
             <GrSecure className="text-[#fff]" />
@@ -175,24 +175,93 @@ const Llast = () => {
         </div>
       </div>
       <div>
-        <h1>saved for later</h1>
-        <div className="flex flex-wrap items-center justify-around">
-          <div className="w-[180px] h-[260px] border-[1px] border-gray-200 shadow-sm">
+        <h1 className="font-bold">saved for later</h1>
+        <div className="flex flex-wrap items-center justify-around w-full">
+          <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
-              <img src={ktm3} alt="" className="w-[164px] m-auto" />
+              <img src={ktm} alt="" className="w-[164px] m-auto" />
             </div>
-            <div className="px-[10px]">
+            <div className="px-[10px] w-full grow shrink">
               <p className="font-bold">$99.50</p>
               <p className="text-gray-500">
                 GoPro HERO 6 4K action camera-Black
               </p>
-              <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px]">
-                <SiGooglecardboard />
-                <p>move to card</p>
-              </button>
+              <div className="flex items-center justify-between">
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px]">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px] sm:hidden">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+              </div>
             </div>
           </div>
-          <div className="w-[180px] h-[260px] border-[1px] border-gray-200 shadow-sm">
+          <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
+            <div className="">
+              <img src={ktm1} alt="" className="w-[164px] m-auto" />
+            </div>
+            <div className="px-[10px] w-full grow shrink">
+              <p className="font-bold">$99.50</p>
+              <p className="text-gray-500">
+                GoPro HERO 6 4K action camera-Black
+              </p>
+              <div className="flex items-center justify-between">
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px]">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px] sm:hidden">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
+            <div className="">
+              <img src={ktm2} alt="" className="w-[164px] m-auto" />
+            </div>
+            <div className="px-[10px] w-full grow shrink">
+              <p className="font-bold">$99.50</p>
+              <p className="text-gray-500">
+                GoPro HERO 6 4K action camera-Black
+              </p>
+              <div className="flex items-center justify-between">
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px]">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px] sm:hidden">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
+            <div className="">
+              <img src={ktm3} alt="" className="w-[164px] m-auto" />
+            </div>
+            <div className="px-[10px] w-full grow shrink">
+              <p className="font-bold">$99.50</p>
+              <p className="text-gray-500">
+                GoPro HERO 6 4K action camera-Black
+              </p>
+              <div className="flex items-center justify-between">
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px]">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+                <button className="flex border-[1px] border-gray-200 items-center gap-2 p-1 text-[#343bc5] text-[10px] sm:hidden">
+                  <SiGooglecardboard />
+                  <p>move to cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          {/* <div className="w-[180px] h-[260px] border-[1px] border-gray-200 shadow-sm">
             <div className="">
               <img src={img1} alt="" className="w-[147px] m-auto" />
             </div>
@@ -236,7 +305,7 @@ const Llast = () => {
                 <p>move to card</p>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex items-center justify-between h-24 px-10 py-4 mt-4 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500">

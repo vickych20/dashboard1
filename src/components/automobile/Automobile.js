@@ -28,12 +28,12 @@ const Automobile = () => {
             <IoMdPeople className="text-[#fff] rounded-3xl text-[15px] bg-red-500 w-[30px] h-[20px]" />
             Hi,users lets get start
           </span>
-          {/* <button className="bg-red-300 hover:bg-gray-400 text-gray-800 font-bold  px-4 rounded inline-flex items-center">
+           {/* <button className="bg-red-300 hover:bg-gray-400 text-gray-800 font-bold  px-4 rounded inline-flex items-center">
             <span>Join Now</span>
           </button>
           <button className="bg-red-300 hover:bg-gray-400 text-gray-800 font-bold  px-4 rounded inline-flex items-center">
             <span>Login Now</span>
-          </button> */}
+          </button>  */}
         </div>
         <div className="bg-yellow-200 p-5 rounded-lg w-[200px] my-2">
           <p>Free photo showing cart trolley shopping online sign graphic</p>

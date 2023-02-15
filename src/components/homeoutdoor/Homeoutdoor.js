@@ -19,7 +19,7 @@ const Homeoutdoor = () => {
       <div className="home w-[25%]">
         <img src={img5} alt="" className="w-[290px]" />
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
@@ -41,7 +41,7 @@ const Homeoutdoor = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
@@ -63,7 +63,7 @@ const Homeoutdoor = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
@@ -85,7 +85,7 @@ const Homeoutdoor = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
