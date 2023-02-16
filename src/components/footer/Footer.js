@@ -9,7 +9,7 @@ import './footer.css';
 
 function Footer() {
     return (
-      <div className="min-xl:justify-around min-xxl:justify-around flex items-center justify-around flex-wrap max-lg:justify-around max-xl:justify-around max-2xl:justify-around">
+      <div className="min-xl:justify-around min-xxl:justify-around flex items-center justify-around flex-wrap max-lg:justify-around max-xl:justify-around max-2xl:justify-around max-lg:py-8">
         <div className="flex flex-col max-md:hidden">
           <div className="flex items-center gap-2">
             <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[40px] w-[40px]" />
