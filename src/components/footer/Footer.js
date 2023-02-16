@@ -10,7 +10,7 @@ import './footer.css';
 function Footer() {
     return (
       <div className="min-xl:justify-around min-xxl:justify-around flex items-center justify-around flex-wrap max-lg:justify-around max-xl:justify-around max-2xl:justify-around">
-        <div className="flex flex-col">
+        <div className="flex flex-col max-md:hidden">
           <div className="flex items-center gap-2">
             <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[40px] w-[40px]" />
             <h2 className="text-[#469fdf] text-[30px]">Brand</h2>
@@ -37,7 +37,7 @@ function Footer() {
           <p>Categories</p>
           <p>Blog</p>
         </div>
-        <div>
+        <div className='max-md:hidden'>
           <h1 className="font-bold text-[20px]">Parnership</h1>
           <p>About us</p>
           <p>Find store</p>
@@ -58,7 +58,7 @@ function Footer() {
           <p>Settings</p>
           <p>My Orders</p>
         </div>
-        <div>
+        <div className='max-sm:hidden'>
           <h1 className="font-bold text-[20px]">Get app</h1>
           <button className="flex items-center bg-[#000] text-[#fff] px-4 rounded-md gap-2">
             <div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-      <div className='text-center py-4'>
+      <div className='text-center py-4 max-md:hidden'>
           <h1 className='font-bold text-[24px]'>Subscribe on our newsletter</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, nostrum!</p>
           <div className='py-8 '>

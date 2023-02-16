@@ -3,9 +3,9 @@ import './easy.css';
 
 const Easy = () => {
   return (
-    <div className="btn flex items-center justify-center">
+    <div className="btn flex items-center justify-center max-md:h-[200px]">
       <div className="max-w-[100%] block flex-wrap ">
-        <h1 className="text-[30px] font-bold text-[#fff] px-[10px]">
+        <h1 className="text-[30px] font-bold text-[#fff] px-[10px] max-sm:text-[20px]">
           An easy way to send request to all suppliers
         </h1>
         <p className="text-[#fff]">

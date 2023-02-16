@@ -7,7 +7,7 @@ const Suppliear = () => {
       <div>
         <h1 className="text-[20px] hiii font-bold p-4">Suppliers by region</h1>
       </div>
-      <div className="min-xl:justify-around min-xxl:justify-around flex items-center justify-around flex-wrap max-lg:justify-around max-xl:justify-around max-2xl:justify-around">
+      <div className="min-xl:justify-around min-xxl:justify-around flex items-center justify-around flex-wrap max-lg:justify-around max-xl:justify-around max-2xl:justify-around max-md:hidden">
         <div>
           <div className="flex items-center gap-2">
             <div>

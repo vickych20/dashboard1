@@ -11,18 +11,19 @@ import { FiMenu } from 'react-icons/fi';
 const Navbar = () => {
   return (
     <div className="max-w-[1200px] m-auto">
-      <div className="flex justify-between items-center md:py-1 h-[85px] max-2xl:justify-between  min-sm:justify-between">
+      <div className="flex justify-between items-center md:py-1 h-[85px] max-2xl:justify-between  min-sm:justify-between max-md:m-2">
         <div className="flex items-center gap-2">
-          <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[50px] w-[50px]" />
-          <h2 className="text-[#469fdf] text-[30px]">Brand</h2>
+        <FiMenu className='max-sm:block max-2xl:hidden'/>
+          <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[50px] w-[50px] max-sm:text-[10px]" />
+          <h2 className="text-[#469fdf] text-[30px] font-bold">Brand</h2>
         </div>
-        <div className="max-md:hidden flex items-center gap-2 border-[1px] border-[#0d99ff] rounded-md">
+        <div className="max-md:hidden flex items-center gap-2 border-[1px] border-[#0d99ff] rounded-md max-lg:hidden">
           <input
             type="search"
             placeholder="Search"
             className="w-[300px] outline-none px-2"
           />
-          <AiOutlineSearch />
+          <AiOutlineSearch/>
           <div className="w-[1px] h-[30px] bg-[#0d99ff]"></div>
           <select name="cars" id="cars" className="outline-none max-md:hidden">
             <option value="all category">All category</option>
@@ -56,9 +57,10 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div className="border-t-[1px] border-gray-400 border-b-[1px] ">
-        <div className="flex justify-between items-center py-4 overflow-x-scroll max-2xl:justify-between">
-          <div className="flex items-center gap-4">
+      <div className="border-t-[1px] border-gray-400 border-b-[1px]">
+      
+        <div className="flex justify-between items-center py-4 max-2xl:justify-between">
+          <div className="flex items-center gap-4 max-md:hidden">
             <FiMenu />
             <p>All category</p>
             <p>Hot offers</p>
@@ -68,7 +70,8 @@ const Navbar = () => {
             <p>help</p>
             <BiChevronDown />
           </div>
-          <div className="flex items-center gap-4">
+         
+          <div className="flex items-center gap-4 max-md:hidden">
             <select name="cars" id="cars">
               <option value="volvo">English,USD</option>
               <option value="saab">Saab</option>
@@ -82,8 +85,17 @@ const Navbar = () => {
               <option value="audi">Audi</option>
             </select>
           </div>
+      <div className='max-md:block max-xl:hidden gap-[20px] items-center border-[1px] border-gray-300 p-2 w-full max-2xl:hidden bg-gray-100 m-2'>
+      <div className='flex items-center gap-[30px] px-[20px]'>
+      <AiOutlineSearch/>
+      <input type="text" placeholder='Search' className='outline-none bg-transparent'></input>
+
+      </div>
+
+      </div>
         </div>
       </div>
+
     </div>
   );
 }
