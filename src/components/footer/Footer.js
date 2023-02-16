@@ -44,7 +44,7 @@ function Footer() {
           <p>Categories</p>
           <p>Blog</p>
         </div>
-        <div>
+        <div className=' max-sm:hidden'>
           <h1 className="font-bold text-[20px]">information</h1>
           <p>Help center</p>
           <p>Money Refund</p>
@@ -58,7 +58,7 @@ function Footer() {
           <p>Settings</p>
           <p>My Orders</p>
         </div>
-        <div className='max-sm:hidden'>
+        <div className='max-xl:hidden'>
           <h1 className="font-bold text-[20px]">Get app</h1>
           <button className="flex items-center bg-[#000] text-[#fff] px-4 rounded-md gap-2">
             <div>

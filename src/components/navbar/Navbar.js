@@ -61,7 +61,7 @@ const Navbar = () => {
       
         <div className="flex justify-between items-center py-4 max-2xl:justify-between">
           <div className="flex items-center gap-4 max-md:hidden">
-            <FiMenu />
+            <FiMenu  className='max-xl:hidden'/>
             <p>All category</p>
             <p>Hot offers</p>
             <p>gift boxes</p>

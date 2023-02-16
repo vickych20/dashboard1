@@ -11,11 +11,11 @@ const Deals = () => {
   return (
     <div className="flex py-4 font-inter flex-wrap">
     
-      <div className="shadow-lg w-[290px] py-6 leading-5 max-sm:flex max-sm:w-full max-sm:justify-evenly">
-      <div className='max-sm:leading-3'>
+      <div className="shadow-lg w-[290px] py-6 leading-5 max-sm:flex max-sm:w-full max-sm:justify-evenly max-lg:w-[190px]">
+      <div className='max-sm:leading-3 max-xl:leading-4'>
         <h1 className="text-[17px] font-bold">Deals and offers</h1>
         <br/>
-        <p className="text-[10px] max-sm:text-[14px]">Hygience equipment</p>
+        <p className="text-[10px] max-sm:text-[14px] mb-4">Hygience equipment</p>
 
       </div>
         <div className="flex gap-3 text-[#fff] leading-4">
