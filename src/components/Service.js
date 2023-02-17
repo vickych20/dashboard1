@@ -17,21 +17,15 @@ import Related from "./pages/Related";
 const Service = () => {
   return (
     <div className="overflow-x-hidden">
-      <div className="flex items-start gap-3 py-8 flex-wrap">
+   
+
+    
+      <div className="flex justify-between items-center gap-4 max-md:flex-col">
         <div>
           <img src={img1} alt="" className="w-[400px] m-auto"/>
           <div>
             <div className="flex items-center gap-3 py-4">
-              <img
-                src={img1}
-                alt=""
-                className="w-[90px] border-[1px] border-gray-300 p-2"
-              />
-              <img
-                src={img1}
-                alt=""
-                className="w-[90px] border-[1px] border-gray-300 p-2"
-              />
+             
               <img
                 src={img1}
                 alt=""
@@ -55,7 +49,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className=" max-xl-block max-lg:hidden">
           <p className="flex items-center gap-8 text-[#0adb0e] max-md:justify-center">
             <MdLocalGroceryStore />
             <p>In stock</p>
@@ -138,7 +132,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className="border-[1px] border-gray-300 rounded-md p-2 px-[40px]">
+        <div className="border-[1px] border-gray-300 rounded-md p-2 w-[350px]">
           <div className="flex items-center pb-2 gap-8 shadow-md py-4">
             <div className="border-[1px] border-gray-300 bg-[#a6e0db] p-1 px-4">
               R
@@ -185,7 +179,7 @@ const Service = () => {
             </TabList>
 
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#37cd3c66] p-3">
+              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
                 Click on any of the modules on the interactive graphic below to
                 see a more detailed description of the content and download a
                 copy of our bite sized learning brochure. We have highlighted in
@@ -197,7 +191,7 @@ const Service = () => {
               </h2>
             </TabPanel>
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#32249d66] p-3">
+              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
                 error repellat corrupti dolore iste maxime non quasi nisi
                 pariatur eum! Quia recusandae deleniti molestiae facere a
@@ -209,7 +203,7 @@ const Service = () => {
               </h2>
             </TabPanel>
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#cd378266] p-3">
+              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
                 Discover our latest thinking and experience on matrix management
                 from working with hundreds of organizations and tens of
                 thousands of participants in workshops on this topic around the
@@ -217,7 +211,7 @@ const Service = () => {
               </h2>
             </TabPanel>
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#cd983766] p-3">
+              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
                 Group of people getting ready for a virtual meeting Even before
                 COVID 19, 84% of managers and professionals worked in virtual
                 teams at least part of the time. Virtual working is sure to
@@ -229,18 +223,18 @@ const Service = () => {
             </TabPanel>
           </Tabs>
           <div className="flex items-start mx-[3rem] list-none gap-[rem] py-4 text-[17px] ">
-            <div className="border-[1px] border-gray-300 w-[10rem] bg-gray-200">
-              <li className="border-[1px] border-gray-300">Model</li>
-              <li className="border-[1px] border-gray-300">Style</li>
-              <li className="border-[1px] border-gray-300">Certificate</li>
-              <li className="border-[1px] border-gray-300">Size</li>
-              <li className="border-[1px] border-gray-300">Memory</li>
+            <div className="border-[1px] border-gray-300 w-[10rem] bg-gray-200 p-3">
+              <li className="border-[1px] border-gray-300 p-1">Model</li>
+              <li className="border-[1px] border-gray-300 p-1">Style</li>
+              <li className="border-[1px] border-gray-300 p-1">Certificate</li>
+              <li className="border-[1px] border-gray-300 p-1">Size</li>
+              <li className="border-[1px] border-gray-300 p-1">Memory</li>
             </div>
-            <div>
-              <li className="border-[1px] border-gray-300">#98676756</li>
-              <li className="border-[1px] border-gray-300">classic style</li>
-              <li className="border-[1px] border-gray-300">ISO-856873697</li>
-              <li className="border-[1px] border-gray-300">
+            <div className="p-4">
+              <li className="border-[1px] border-gray-300 p-1">#98676756</li>
+              <li className="border-[1px] border-gray-300 p-1">classic style</li>
+              <li className="border-[1px] border-gray-300 p-1">ISO-856873697</li>
+              <li className="border-[1px] border-gray-300 p-1">
                 34mm * 450mm * 19mm
               </li>
               <li className="border-[1px] border-gray-300">36GB RAM</li>

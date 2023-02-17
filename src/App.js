@@ -11,6 +11,9 @@ import Footer from "./components/footer/Footer";
 import Contact from "./components/Contact";
 import Service from "./components/Service";
 import Llast from "./components/Llast";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
@@ -24,6 +27,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/service" element={<Service />} />
           <Route path="/last" element={<Llast />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/sidebar" element={<Sidebar />} />
         </Routes>
         <Subscribe />
         <Footer />

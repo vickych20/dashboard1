@@ -99,11 +99,11 @@ const Navbar = () => {
 
        
         <p className='shrink-0 bg-gray-100 mx-2 p-1 px-8 py-3 rounded-md '>All category</p>
-            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>Hot offers</p>
-            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>gift boxes</p>
-            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>projects</p>
-            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>menu items</p>
-            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>help</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-2 rounded-md'>Hot offers</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-2 rounded-md'>gift boxes</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-2 rounded-md'>projects</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-2 rounded-md'>menu items</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-2 rounded-md'>help</p>
             </div>
 
         </div>

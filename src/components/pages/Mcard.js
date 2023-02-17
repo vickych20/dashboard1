@@ -37,7 +37,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="max-md:hidden flex-wrap flex">
+            <p className="max-md:hidden flex-wrap flex text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -71,7 +71,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden">
+            <p className="leading-5 max-md:hidden text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -105,7 +105,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden">
+            <p className="leading-5 max-md:hidden text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -139,7 +139,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden">
+            <p className="leading-5 max-md:hidden text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -173,7 +173,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden">
+            <p className="leading-5 max-md:hidden text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -211,7 +211,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden">
+            <p className="leading-5 max-md:hidden text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!

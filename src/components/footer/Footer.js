@@ -5,6 +5,7 @@ import { BsFacebook } from "react-icons/bs";
 import { SiTelegram, SiYoutubemusic } from "react-icons/si";
 import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
+import {Link} from 'react-router-dom';
 import './footer.css';
 
 function Footer() {
@@ -31,32 +32,52 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold text-[20px]">About</h1>
+          <h1 className="font-bold text-[20px]">
+        <Link to="/about" className="font-bold text-[20px]">About</Link>
+          </h1>
           <p>About us</p>
           <p>Find store</p>
-          <p>Categories</p>
+         <p>
+          <Link to="/contact">Categories</Link>
+         </p>
           <p>Blog</p>
         </div>
         <div className='max-md:hidden'>
           <h1 className="font-bold text-[20px]">Parnership</h1>
-          <p>About us</p>
+          <p>
+          <Link to="/">Home</Link>
+          </p>
           <p>Find store</p>
           <p>Categories</p>
           <p>Blog</p>
         </div>
         <div className=' max-sm:hidden'>
           <h1 className="font-bold text-[20px]">information</h1>
-          <p>Help center</p>
+          <p>
+          <Link to="/contact">Mobile</Link>
+          </p>
           <p>Money Refund</p>
           <p>Shipping</p>
-          <p>Contact Us</p>
+          <p>
+          <Link to="/service">T-Short</Link>
+          </p>
         </div>
         <div>
           <h1 className="font-bold text-[20px]">For users</h1>
-          <p>Login</p>
-          <p>Register</p>
-          <p>Settings</p>
-          <p>My Orders</p>
+          <p>
+          <Link to="/login">Login</Link>
+
+          </p>
+          <p>
+          <Link to="/register">Register</Link>
+
+          </p>
+          <p>
+          <Link to="/sidebar">Settings</Link>
+          </p>
+          <p>
+            <Link to="/last">My orders</Link>
+          </p>
         </div>
         <div className='max-xl:hidden'>
           <h1 className="font-bold text-[20px]">Get app</h1>

@@ -39,11 +39,11 @@ const Contact = () => {
 
               <AiOutlineRight />
             </div>
-            <p>Mobile accessory</p>
-            <p>Electronics</p>
-            <p>smartphones</p>
-            <p>modern tech</p>
-            <p>See all</p>
+            <p className="text-gray-400">Mobile accessory</p>
+            <p className="text-gray-400">Electronics</p>
+            <p className="text-gray-400">smartphones</p>
+            <p className="text-gray-400">modern tech</p>
+            <p className='text-[#0dc7ff]'>See all</p>
             <div>
               <div className="flex justify-between items-center">
                 <h1 className="font-bold text-[18px]">Brands</h1>
@@ -53,34 +53,34 @@ const Contact = () => {
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>Samsung</p>
+                  <p className="text-gray-400">Samsung</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>lenovo</p>
+                  <p className="text-gray-400">lenovo</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>pocco</p>
+                  <p className="text-gray-400">pocco</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>Mobile</p>
+                  <p className="text-gray-400">Mobile</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>Apple</p>
+                  <p className="text-gray-400">Apple</p>
                 </div>
               </div>
-              <p>See all</p>
+              <p className='text-[#0dc7ff]'>See all</p>
             </div>
             <div>
               <div className="flex justify-between items-center">
@@ -91,34 +91,34 @@ const Contact = () => {
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>Metallic</p>
+                  <p className="text-gray-400">Metallic</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>plastic cover</p>
+                  <p className="text-gray-400">plastic cover</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>8GB Ram</p>
+                  <p className="text-gray-400">8GB Ram</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>Super power</p>
+                  <p className="text-gray-400">Super power</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
-                  <p>Apple</p>
+                  <p className="text-gray-400">Apple</p>
                 </div>
               </div>
-              <p>See all</p>
+              <p className='text-[#0dc7ff]'>See all</p>
             </div>
             <div>
               <div>
@@ -154,34 +154,34 @@ const Contact = () => {
                 <div className="flex gap-2 items-center">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
-                    <p>Metallic</p>
+                    <p className="text-gray-400">Metallic</p>
                   </div>
                 </div>
                 <div className="flex gap-2 items-center">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
-                    <p>plastic cover</p>
+                    <p className="text-gray-400">plastic cover</p>
                   </div>
                 </div>
                 <div className="flex gap-2 items-center">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
-                    <p>8GB Ram</p>
+                    <p className="text-gray-400">8GB Ram</p>
                   </div>
                 </div>
                 <div className="flex gap-2 items-center">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
-                    <p>Super power</p>
+                    <p className="text-gray-400">Super power</p>
                   </div>
                 </div>
                 <div className="flex gap-2 items-center">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
-                    <p>Apple</p>
+                    <p className="text-gray-400">Apple</p>
                   </div>
                 </div>
-                <p>See all</p>
+                <p className='text-[#0dc7ff]'>See all</p>
               </div>
               <div>
                 <div className="flex justify-between items-center">
@@ -193,8 +193,32 @@ const Contact = () => {
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                   <div>
                     <p className="flex gap-2">
+                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar />
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-2 items-center">
+                  <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
+                  <div>
+                    <p className="flex gap-2">
+                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar className='text-[#ffcb0d]'/>
                       <AiFillStar />
                       <AiFillStar />
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-2 items-center">
+                  <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
+                  <div>
+                    <p className="flex gap-2">
+                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar className='text-[#ffcb0d]'/>
                       <AiFillStar />
                       <AiFillStar />
                       <AiFillStar />
@@ -205,31 +229,7 @@ const Contact = () => {
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                   <div>
                     <p className="flex gap-2">
-                      <AiFillStar />
-                      <AiFillStar />
-                      <AiFillStar />
-                      <AiFillStar />
-                      <AiFillStar />
-                    </p>
-                  </div>
-                </div>
-                <div className="flex gap-2 items-center">
-                  <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
-                  <div>
-                    <p className="flex gap-2">
-                      <AiFillStar />
-                      <AiFillStar />
-                      <AiFillStar />
-                      <AiFillStar />
-                      <AiFillStar />
-                    </p>
-                  </div>
-                </div>
-                <div className="flex gap-2 items-center">
-                  <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
-                  <div>
-                    <p className="flex gap-2">
-                      <AiFillStar />
+                      <AiFillStar className='text-[#ffcb0d]'/>
                       <AiFillStar />
                       <AiFillStar />
                       <AiFillStar />
@@ -310,12 +310,10 @@ const Contact = () => {
             <p>
               {" "}
               <Card />
-              <Card />
-              <Card />
-              <Card />
+            
               <div className="flex justify-end items-center py-4 mr-[4rem] gap-4">
                 <div>
-                  <button className="border-[1px] border-[#8f9fab] flex items-center gap-2 rounded-sm text-[13px] px-2">
+                  <button className="border-[1px] border-[#8f9fab] flex items-center gap-2 rounded-sm text-[13px] px-2 text-gray-400">
                     Show 10 <BiChevronDown />
                   </button>
                 </div>

@@ -33,11 +33,11 @@ const About = () => {
 
             <AiOutlineRight />
           </div>
-          <p>Mobile accessory</p>
-          <p>Electronics</p>
-          <p>smartphones</p>
-          <p>modern tech</p>
-          <p>See all</p>
+          <p className="text-gray-400">Mobile accessory</p>
+          <p className="text-gray-400">Electronics</p>
+          <p className="text-gray-400">smartphones</p>
+          <p className="text-gray-400">modern tech</p>
+          <p className="text-gray-400">See all</p>
           <div>
             <div className="flex justify-between items-center">
               <h1 className="font-bold text-[18px]">Brands</h1>
@@ -47,34 +47,34 @@ const About = () => {
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>Samsung</p>
+                <p className="text-gray-400">Samsung</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>lenovo</p>
+                <p className="text-gray-400">lenovo</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>pocco</p>
+                <p className="text-gray-400">pocco</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>Mobile</p>
+                <p className="text-gray-400">Mobile</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>Apple</p>
+                <p className="text-gray-400">Apple</p>
               </div>
             </div>
-            <p>See all</p>
+            <p className="text-gray-400">See all</p>
           </div>
           <div>
             <div className="flex justify-between items-center">
@@ -85,34 +85,34 @@ const About = () => {
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>Metallic</p>
+                <p className="text-gray-400">Metallic</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>plastic cover</p>
+                <p className="text-gray-400">plastic cover</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>8GB Ram</p>
+                <p className="text-gray-400">8GB Ram</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>Super power</p>
+                <p className="text-gray-400">Super power</p>
               </div>
             </div>
             <div className="flex gap-2 items-center">
               <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
               <div>
-                <p>Apple</p>
+                <p className="text-gray-400">Apple</p>
               </div>
             </div>
-            <p>See all</p>
+            <p className="text-gray-400">See all</p>
           </div>
           <div>
             <div>
@@ -148,34 +148,34 @@ const About = () => {
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                 <div>
-                  <p>Metallic</p>
+                  <p className="text-gray-400">Metallic</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                 <div>
-                  <p>plastic cover</p>
+                  <p className="text-gray-400">plastic cover</p>
+                </div>
+              </div>
+              <div className="flex gap-2 items-center">
+                <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
+                <div className="text-gray-400">
+                  <p className="text-gray-400">8GB Ram</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                 <div>
-                  <p>8GB Ram</p>
+                  <p className="text-gray-400">Super power</p>
                 </div>
               </div>
               <div className="flex gap-2 items-center">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                 <div>
-                  <p>Super power</p>
+                  <p className="text-gray-400">Apple</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
-                <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
-                <div>
-                  <p>Apple</p>
-                </div>
-              </div>
-              <p>See all</p>
+              <p className="text-gray-400">See all</p>
             </div>
             <div>
               <div className="flex justify-between items-center">
@@ -243,7 +243,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <p>See all</p>
+              <p className="text-gray-400">See all</p>
             </div>
           </div>
         </div>
