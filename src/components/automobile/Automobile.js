@@ -7,7 +7,7 @@ const Automobile = () => {
   return (
     <div className="shadow-lg max-md:flex-col flex justify-center items-center md:py-1  max-2xl:justify-between  min-sm:justify-between gap-4 flex-wrap">
       <div className="w-[240px]">
-        <ul className="max-lg:hidden max-md:gap-5 max-md:scroll-mx-0 overflow-x-scroll">
+        <ul className="max-lg:hidden max-md:gap-5 max-md:scroll-mx-0">
           <li className="my-2">Automobile</li>
           <li className="py-1 hover:bg-[#C7E1FF] hover:">Clothes and wear</li>
           <li className="py-1 hover:bg-[#C7E1FF] hover:">Home interiors</li>

@@ -9,16 +9,16 @@ import img4 from '../Assets/pc5.jpg';
 
 const Deals = () => {
   return (
-    <div className="flex py-4 font-inter flex-wrap">
+    <div className="w-full flex py-4 font-inter max-sm:h-[140px] ">
     
-      <div className="shadow-lg w-[290px] py-6 leading-5 max-sm:flex max-sm:w-full max-sm:justify-evenly max-lg:w-[190px]">
-      <div className='max-sm:leading-3 max-xl:leading-4'>
-        <h1 className="text-[17px] font-bold">Deals and offers</h1>
+      <div className="shadow-md max-sm:h-[100px] w-[290px] py-2 leading-5 max-sm:flex max-sm:w-full max-sm:justify-between max-lg:w-[190px] shrink-0 grow-0 max-md:pb-[100px] md:block">
+      <div className='max-sm:leading-3 max-xl:leading-4 max-sm:pt-[20px]'>
+        <h1 className="text-[22px] font-bold max-sm:text-[16px] ">Deals and offers</h1>
         <br/>
-        <p className="text-[10px] max-sm:text-[14px] mb-4">Hygience equipment</p>
+        <p className="text-[17px] max-sm:text-[14px] mb-4">Hygience equipment</p>
 
       </div>
-        <div className="flex gap-3 text-[#fff] leading-4">
+        <div className="flex gap-3 text-[#fff] leading-4 max-sm:pt-[20px]">
           <div className="h-[30px] w-[30px] rounded-md text-[13px] bg-slate-700 text-center">
             <p>04</p>{" "}
             <p className="text-[7px]  relative bottom-1 text-gray-200">Days</p>
@@ -37,7 +37,8 @@ const Deals = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center gap-7 flex-wrap max-sm:hidden">
+      
+      <div className="flex items-center shrink-0 gap-4 px-6 overflow-x-clip">
         <div className="text-center border-gray-200 shadow-lg w-[159px] h-[195px] py-6">
           <img src={img1} alt="" className="w-[90px] m-auto" />
           <p>smart watches</p>

@@ -12,57 +12,65 @@ const Our = () => {
       <div>
         <h1 className="font-bold p-4">Our Extra service</h1>
       </div>
+     
 
-      <div className="flex items-center justify-around flex-wrap">
-        <div className="w-[250px] h-[180px] border-[1px]">
-          <img src={img1} alt="" />
-          <span>
-            <div className="bg-gray-300 w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
-              <AiOutlineSearch />
-            </div>
-          </span>
 
-          <h1 className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
-            source from industry hubs
-          </h1>
+
+        <div className="w-full grid grid-cols-4 gap-10 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 max-[441px]:grid-cols-1 max-[640px]:grid-cols-2">
+          <div className="flex flex-wrap items-center">
+            <div className="w-[250px] h-[180px] border-[1px]">
+              <img src={img1} alt="" />
+              <span>
+                <div className="bg-gray-300 w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
+                  <AiOutlineSearch />
+                </div>
+              </span>
+
+              <h1 className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
+                source from industry hubs
+              </h1>
+            </div></div>
+          <div className="flex flex-wrap items-center">
+            <div className="w-[250px] h-[180px] border-[1px]">
+              <img src={img2} alt="" />
+              <span>
+                <div className="bg-[#DCDCDC] w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
+                  <AiOutlinePropertySafety />
+                </div>
+              </span>
+
+              <p className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
+                source from industry hubs
+              </p>
+            </div></div>
+          <div className="flex flex-wrap items-center">
+            <div className="w-[250px] h-[180px] border-[1px]">
+              <img src={img3} alt="" />
+              <span>
+                <div className="bg-[#DCDCDC] w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
+                  <AiOutlinePropertySafety />
+                </div>
+              </span>
+
+              <p className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
+                source from industry hubs
+              </p>
+            </div></div>
+          <div className="flex flex-wrap items-center">
+            <div className="w-[250px] h-[180px] border-[1px]">
+              <img src={img4} alt="" />
+              <span>
+                <div className="bg-[#DCDCDC] w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
+                  <AiOutlinePropertySafety />
+                </div>
+              </span>
+
+              <p className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
+                source from industry hubs
+              </p>
+            </div></div>
         </div>
-        <div className="w-[250px] h-[180px] border-[1px]">
-          <img src={img2} alt="" />
-          <span>
-            <div className="bg-[#DCDCDC] w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
-              <AiOutlinePropertySafety />
-            </div>
-          </span>
-
-          <p className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
-            source from industry hubs
-          </p>
-        </div>
-        <div className="w-[250px] h-[180px] border-[1px]">
-          <img src={img3} alt="" />
-          <span>
-            <div className="bg-[#DCDCDC] w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
-              <AiOutlinePropertySafety />
-            </div>
-          </span>
-
-          <p className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
-            source from industry hubs
-          </p>
-        </div>
-        <div className="w-[250px] h-[180px] border-[1px]">
-          <img src={img4} alt="" />
-          <span>
-            <div className="bg-[#DCDCDC] w-[50px] h-[50px] rounded-full flex justify-center items-center float-right  relative bottom-[30px] right-[14px]">
-              <AiOutlinePropertySafety />
-            </div>
-          </span>
-
-          <p className="text-[14px] mt-[20px] w-[150px] px-[20px] font-serif">
-            source from industry hubs
-          </p>
-        </div>
-      </div>
+ 
     </div>
   );
 };

@@ -12,11 +12,24 @@ import img9 from "../Assets/z4.png";
 
 const Consumer = () => {
   return (
-    <div className="flex">
-      <div className="home w-[25%]">
-        <img src={img5} alt="" className="" />
+    <div className="mt-4"> 
+    <div className='py-3 hidden max-md:block'>
+      <h1 className='font-extrabold	 text-[24px]'>Consumer electronics</h1>
+    </div>
+    <div className='flex'>
+   
+
+
+  
+      <div className="home w-[290px] shrink-0 grow-0 hidden md:block">
+        <img src={img5} alt="" className="w-[290px]" />
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+    
+      
+      <div className='flex items-center max-xl:overflow-x-scroll '>
+
+     
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
@@ -38,7 +51,7 @@ const Consumer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[199px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
@@ -60,7 +73,7 @@ const Consumer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
@@ -82,7 +95,7 @@ const Consumer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-[229px] px-4">
+      <div className="flex flex-col w-[229px] px-4 flex-wrap">
         <div className="flex items-start justify-between py-7 border-[1px] border-gray-200 h-[133px] w-[210px]">
           <div className="p-4 text-[13px]">
             <p className="font-500">Soft chairs</p>
@@ -104,6 +117,8 @@ const Consumer = () => {
           </div>
         </div>
       </div>
+      </div>
+    </div>
     </div>
   );
 };

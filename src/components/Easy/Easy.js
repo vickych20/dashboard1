@@ -3,22 +3,25 @@ import './easy.css';
 
 const Easy = () => {
   return (
-    <div className="btn flex items-center justify-center max-md:h-[200px]">
+    <div className="btn flex items-center justify-center max-md:h-[200px] mt-4">
       <div className="max-w-[100%] block flex-wrap ">
-        <h1 className="text-[30px] font-bold text-[#fff] px-[10px] max-sm:text-[20px]">
+        <h1 className="text-[30px] font-bold text-[#fff] px-[10px] max-sm:text-[30px]">
           An easy way to send request to all suppliers
         </h1>
-        <p className="text-[#fff]">
+        <button className="hidden max-md:block font-bold px-8 items-start  py-2 ml-8 rounded-lg border-[1px] border-gray-400 text-[#fff] outline-none mb-4 mt-4 bg-[#0d99ff]">
+          Send inquiry
+        </button>
+        <p className="text-[#fff] max-md:hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
           assumenda{" "}
         </p>
       </div>
-      <div className="bg-[#fff] max-w-[50%] px-[50px] max-md:hidden">
+      <div className="bg-[#fff] max-w-[50%] px-[50px] max-lg:hidden max-xl:mr-[3rem] rounded-lg p-6">
         <h1 className="text-[20px] font-bold">send quote to suppliers</h1>
         <input
           type="text"
           placeholder="what item you need "
-          className="border-[1px] border-gray-300 outline-none p-2 mb-2 max-w-[350px]"
+          className="border-[1px] border-gray-300 outline-none p-2 mb-2 w-[327px]"
         />
         {/* <input
           type=""

@@ -15,7 +15,7 @@ function Footer() {
             <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[40px] w-[40px]" />
             <h2 className="text-[#469fdf] text-[30px]">Brand</h2>
           </div>
-          <div className="w-[200px]">
+          <div className="w-[200px] max-lg:hidden">
             <p>
               Best information about the company gies here but noe provident.
             </p>

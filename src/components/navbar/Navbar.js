@@ -10,12 +10,12 @@ import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () => {
   return (
-    <div className="max-w-[1200px] m-auto">
-      <div className="flex justify-between items-center md:py-1 h-[85px] max-2xl:justify-between  min-sm:justify-between max-md:m-2">
+    <div className="max-w-[1200px] m-auto max-xl:mx-[2rem]">
+      <div className="flex justify-between items-center md:py-1 h-[85px] max-2xl:justify-between  min-sm:justify-between max-md:m-2 max-md:h-[50px]">
         <div className="flex items-center gap-2">
         <FiMenu className='max-sm:block max-2xl:hidden'/>
-          <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[50px] w-[50px] max-sm:text-[10px]" />
-          <h2 className="text-[#469fdf] text-[30px] font-bold">Brand</h2>
+          <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[50px] w-[50px] max-sm:text-[10px] max-sm:tetx-[17px]" />
+          <h2 className="text-[#469fdf] text-[30px] font-bold max-sm:text-[20px]">Brand</h2>
         </div>
         <div className="max-md:hidden flex items-center gap-2 border-[1px] border-[#0d99ff] rounded-md max-lg:hidden">
           <input
@@ -57,10 +57,10 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div className="border-t-[1px] border-gray-400 border-b-[1px]">
+      <div className="border-t-[1px] border-gray-400 border-b-[1px] max-md:border-none">
       
         <div className="flex justify-between items-center py-4 max-2xl:justify-between">
-          <div className="flex items-center gap-4 max-md:hidden">
+          <div className="flex items-center gap-4 max-md:hidden shrink-0">
             <FiMenu  className='max-xl:hidden'/>
             <p>All category</p>
             <p>Hot offers</p>
@@ -85,14 +85,27 @@ const Navbar = () => {
               <option value="audi">Audi</option>
             </select>
           </div>
-      <div className='max-md:block max-xl:hidden gap-[20px] items-center border-[1px] border-gray-300 p-2 w-full max-2xl:hidden bg-gray-100 m-2'>
+      <div className='max-md:block hidden gap-[20px] items-center border-[1px] border-gray-300 p-2 w-full bg-gray-100 m-2 py-2 rounded-md max-sm:'>
       <div className='flex items-center gap-[30px] px-[20px]'>
-      <AiOutlineSearch/>
+      <AiOutlineSearch className='text-[20px]'/>
       <input type="text" placeholder='Search' className='outline-none bg-transparent'></input>
 
       </div>
 
       </div>
+        </div>
+        <div className='hidden max-md:block shrink-0 grow-0'>
+        <div className='flex items-center gap-1 text-[#22a3ff] text-[23px] overflow-x-scroll overflow-visible'>
+
+       
+        <p className='shrink-0 bg-gray-100 mx-2 p-1 px-8 py-3 rounded-md '>All category</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>Hot offers</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>gift boxes</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>projects</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>menu items</p>
+            <p className='shrink-0 bg-gray-100 mx-5 p-1 px-8 py-3 rounded-md'>help</p>
+            </div>
+
         </div>
       </div>
 
