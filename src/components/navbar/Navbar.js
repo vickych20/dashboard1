@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="max-w-[1200px] m-auto max-xl:mx-[2rem]">
       <div className="flex justify-between items-center md:py-1 h-[85px] max-2xl:justify-between  min-sm:justify-between max-md:m-2 max-md:h-[50px]">
         <div className="flex items-center gap-2">
-        <FiMenu className='max-sm:block max-2xl:hidden'/>
+        <FiMenu className='max-md:block hidden'/>
           <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[50px] w-[50px] max-sm:text-[10px] max-sm:tetx-[17px]" />
           <h2 className="text-[#469fdf] text-[30px] font-bold max-sm:text-[20px]">Brand</h2>
         </div>
