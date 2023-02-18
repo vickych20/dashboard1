@@ -18,19 +18,19 @@ import {SiGooglecardboard} from  'react-icons/si'
 const Llast = () => {
   return (
     <div className="font-sans">
-      <h1 className="font-bold text-[26px] max-md:ml-[2rem]">My cart (3)</h1>
-      <div className="flex flex-wrap items-start justify-center gap-4">
+      <h1 className="px-8 font-bold text-[26px]">My cart (3)</h1>
+      <div className="flex flex-wrap items-start justify-center gap-4 max-sm:text-[10px]">
         <div className="w-[70%]">
           <div className="flex justify-between max-md:justify-between">
-            <div className="flex items-start gap-3 font-sans">
-              <img src={img6} alt="" className="w-[100px]" />
+            <div className="flex items-start gap-3 font-sans ">
+              <img src={img6} alt="" className="w-[100px]"/>
               <div>
-                <p> T-shirts with multiple colors, for men and lady</p>
+                <p className="">T-shirts with multiple colors, for men and lady</p>
                 <p className="text-[#858484]">
                   Size:medium,Color:blue,Material:plastic
                 </p>
                 <p className="text-[#858484]">Seller:Artel Market</p>
-                <div className="py-4">
+                <div className="py-4 max-sm:hidden">
                   <button className="font-bold px-4 py-1 rounded-lg border-[1px] border-gray-400 text-[#ff2121] outline-none bg-[#ffffff] ml-4 text-[13px]">
                     Remove
                   </button>
@@ -52,7 +52,7 @@ const Llast = () => {
             </div>
           </div>
           <div className="flex justify-between">
-            <div className="flex items-start gap-3">
+            <div className="flex items-start gap-3 mt-3">
               <img src={img4} alt="" className="w-[100px]" />
               <div>
                 <p> T-shirts with multiple colors, for men and lady</p>
@@ -60,7 +60,7 @@ const Llast = () => {
                   Size:medium,Color:blue,Material:plastic
                 </p>
                 <p className="text-[#858484]">Seller:Artel Market</p>
-                <div className="py-4">
+                <div className="py-4 max-sm:hidden">
                   <button className="font-bold px-4 py-1 rounded-lg border-[1px] border-gray-400 text-[#ff2121] outline-none bg-[#ffffff] ml-4 text-[13px]">
                     Remove
                   </button>
@@ -82,7 +82,7 @@ const Llast = () => {
             </div>
           </div>
           <div className="flex justify-between">
-            <div className="flex items-start gap-3">
+            <div className="flex items-start gap-3 mt-3">
               <img src={img2} alt="" className="w-[100px]" />
               <div>
                 <p> T-shirts with multiple colors, for men and lady</p>
@@ -90,7 +90,7 @@ const Llast = () => {
                   Size:medium,Color:blue,Material:plastic
                 </p>
                 <p className="text-[#858484]">Seller:Artel Market</p>
-                <div className="py-4">
+                <div className="py-4 max-sm:hidden">
                   <button className="font-bold px-4 py-1 rounded-lg border-[1px] border-gray-400 text-[#ff2121] outline-none bg-[#ffffff] ml-4 text-[13px]">
                     Remove
                   </button>

@@ -11,7 +11,7 @@ const Register = () => {
         <div className="register">
           <div className="col-1">
             <h2 className="font-[700] text-center text-[45px]">Sign In</h2>
-            <span className="font-[900] text-[30px]">
+            <span className="font-[900] text-[30px] mx-[3rem]">
               register and enjoy the service
             </span>
             <form id="form" className="flex flex-col m-4 gap-4" onSubmit={handleSubmit()}>
