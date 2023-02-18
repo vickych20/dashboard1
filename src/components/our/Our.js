@@ -16,7 +16,7 @@ const Our = () => {
 
 
 
-        <div className="w-full grid grid-cols-4 gap-10 lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 min-[642px]:grid-cols-1">
+        <div className="w-full grid grid-cols-4 gap-10 lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 max-[352px]:grid-cols-1">
           <div className="flex flex-wrap items-center">
             <div className="w-[250px] h-[180px] border-[1px]">
               <img src={img1} alt="" />

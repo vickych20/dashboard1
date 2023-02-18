@@ -56,7 +56,7 @@ const Login=()=> {
       )}
 
       <form onSubmit={handleSubmit}>
-        <h1 className="font-[700] text-center text-[45px]">Login Form</h1>
+        <h1 className="font-[700] text-center text-[35px]">Login Form</h1>
         <div className="ui divider"></div>
         <div className="ui form">
           <div className="field">

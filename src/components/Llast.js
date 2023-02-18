@@ -175,7 +175,7 @@ const Llast = () => {
         </div>
       </div>
       <div>
-        <h1 className="font-bold max-md:ml-[2rem] max-lg:text-[30px] max-lg:p-[20px]">saved for later</h1>
+        <h1 className="font-bold max-md:ml-[2rem] max-lg:text-[30px] max-lg:p-[20px] px-8 text-[20px] py-6">saved for later</h1>
         <div className="flex flex-wrap items-center justify-around w-full">
           <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
@@ -200,7 +200,7 @@ const Llast = () => {
           </div>
           <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
-              <img src={ktm1} alt="" className="w-[164px] m-auto" />
+              <img src={ktm1} alt="" className="w-[164px] m-auto " />
             </div>
             <div className="px-[10px] w-full grow shrink">
               <p className="font-bold">$99.50</p>
@@ -221,7 +221,7 @@ const Llast = () => {
           </div>
           <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
-              <img src={ktm2} alt="" className="w-[164px] m-auto" />
+              <img src={ktm2} alt="" className="w-[179px] m-auto" />
             </div>
             <div className="px-[10px] w-full grow shrink">
               <p className="font-bold">$99.50</p>
@@ -242,7 +242,7 @@ const Llast = () => {
           </div>
           <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
-              <img src={ktm3} alt="" className="w-[164px] m-auto" />
+              <img src={ktm3} alt="" className="w-[179px] m-auto" />
             </div>
             <div className="px-[10px] w-full grow shrink">
               <p className="font-bold">$99.50</p>
@@ -308,7 +308,7 @@ const Llast = () => {
           </div> */}
         </div>
       </div>
-      <div className="flex items-center justify-between h-24 px-10 py-4 mt-4 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 max-[400px]:hidden">
+      <div className="flex items-center justify-between h-24 px-10 py-4 mt-8 m-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 max-[400px]:hidden">
         <div>
           <h1 className="font-bold text-[26px] text-[#fff]">
             Super discount on more then 100 USD
