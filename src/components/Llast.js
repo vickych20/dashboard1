@@ -18,10 +18,10 @@ import {SiGooglecardboard} from  'react-icons/si'
 const Llast = () => {
   return (
     <div className="font-sans">
-      <h1 className="font-bold text-[26px]">My cart (3)</h1>
+      <h1 className="font-bold text-[26px] max-md:ml-[2rem]">My cart (3)</h1>
       <div className="flex flex-wrap items-start justify-center gap-4">
         <div className="w-[70%]">
-          <div className="flex justify-between">
+          <div className="flex justify-between max-md:justify-between">
             <div className="flex items-start gap-3 font-sans">
               <img src={img6} alt="" className="w-[100px]" />
               <div>
@@ -145,7 +145,7 @@ const Llast = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-around max-md:hidden">
+      <div className="flex flex-wrap items-center justify-around max-lg:hidden">
         <div className="flex items-center gap-3">
           <div className="w-[50px] h-[50px] bg-gray-300 rounded-full px-[17px] py-[15px]">
             <GrSecure className="text-[#fff]" />
@@ -175,7 +175,7 @@ const Llast = () => {
         </div>
       </div>
       <div>
-        <h1 className="font-bold">saved for later</h1>
+        <h1 className="font-bold max-md:ml-[2rem] max-lg:text-[30px] max-lg:p-[20px]">saved for later</h1>
         <div className="flex flex-wrap items-center justify-around w-full">
           <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
@@ -308,18 +308,18 @@ const Llast = () => {
           </div> */}
         </div>
       </div>
-      <div className="flex items-center justify-between h-24 px-10 py-4 mt-4 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div className="flex items-center justify-between h-24 px-10 py-4 mt-4 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 max-[400px]:hidden">
         <div>
           <h1 className="font-bold text-[26px] text-[#fff]">
             Super discount on more then 100 USD
           </h1>
-          <p className="text-[#fff]">
+          <p className="text-[#fff] max-sm:hidden">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit,
             ullam.
           </p>
         </div>
         <div>
-          <button className="bg-yellow-600 text-[#fff] float-left-[300px] rounded-md p-1">
+          <button className="bg-yellow-600 text-[#fff] float-left-[300px] rounded-md p-1 shrink-0 grow-0 w-[120px]">
             show now
           </button>
         </div>

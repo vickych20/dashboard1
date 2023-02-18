@@ -63,7 +63,7 @@ const Login=()=> {
             <label className="font-[900] text-[30px]">Username</label>
             <br />
             <input
-              className="border-[1px] border-gray-400 p-2 px-4 outline-none pr-[80px]"
+              className="border-[1px] border-gray-400 p-2 px-4 outline-none pr-[80px] max-[453px]:w-[200px]"
               type="text"
               name="username"
               placeholder="Username"
@@ -75,7 +75,7 @@ const Login=()=> {
           <div className="field">
             <label className="font-[900] text-[30px]">Email</label>
             <input
-              className="border-[1px] border-gray-400 p-2 px-4 outline-none pr-[80px]"
+              className="border-[1px] border-gray-400 p-2 px-4 outline-none pr-[80px] max-[453px]:w-[200px]"
               type="text"
               name="email"
               placeholder="Email"
@@ -87,7 +87,7 @@ const Login=()=> {
           <div className="field">
             <label className="font-[900] text-[30px]">Password</label>
             <input
-              className="border-[1px] border-gray-400 p-2 px-4 outline-none pr-[80px]"
+              className="border-[1px] border-gray-400 p-2 px-4 outline-none pr-[80px] max-[453px]:w-[200px]"
               type="password"
               name="password"
               placeholder="Password"
@@ -96,7 +96,7 @@ const Login=()=> {
             />
           </div>
           <p>{formErrors.password}</p>
-          <button className="fluid ui button blue border-[1px] border-gray-400 p-2 px-4 outline-none pr-[210px] text-center mt-8 text-[#fff] text-[20px]">
+          <button className="text-[#000] fluid ui button blue border-[1px] border-gray-400 p-2 px-4 outline-none pr-[80px] max-lg:pr-[210px] text-center mt-8 text-[20px] max-[453px]:w-[200px]">
             Submit
           </button>
         </div>

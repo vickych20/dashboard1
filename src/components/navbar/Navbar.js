@@ -87,7 +87,7 @@ const Navbar = () => {
           </div>
       <div className='max-md:block hidden gap-[20px] items-center border-[1px] border-gray-300 p-2 w-full bg-gray-100 m-2 py-2 rounded-md max-sm:'>
       <div className='flex items-center gap-[30px] px-[20px]'>
-      <AiOutlineSearch className='text-[20px]'/>
+      <AiOutlineSearch className='text-[40px] max-[400px]:text-[50px]'/>
       <input type="text" placeholder='Search' className='outline-none bg-transparent'></input>
 
       </div>
