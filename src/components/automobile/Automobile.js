@@ -5,7 +5,7 @@ import { IoMdPeople } from "react-icons/io";
 
 const Automobile = () => {
   return (
-    <div className="shadow-lg max-md:flex-col flex justify-center items-start md:py-1  max-2xl:justify-between  min-sm:justify-between gap-4 flex-wrap">
+    <div className="shadow-lg max-md:flex-col flex justify-center items-start md:py-1  max-2xl:justify-between  min-sm:justify-between gap-[46px] flex-wrap">
       <div className="w-[240px]">
         <ul className="max-lg:hidden max-md:gap-5">
           <li className="my-2">Automobile</li>

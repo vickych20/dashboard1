@@ -54,12 +54,21 @@ const Related = () => {
           </p>
         </div>
       </div>
-      <div className="h-24 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md py-4 px-10 mt-4">
-        <h1 className='font-bold text-[26px] text-[#fff]'>Super discount on more then 100 USD</h1>
-        <p className='text-[#fff]'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit,
-          ullam.
-        </p>
+      <div className="flex items-center justify-between h-24 px-10 py-4 mt-8 m-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 max-[500px]:hidden">
+        <div>
+          <h1 className="font-bold text-[26px] text-[#fff] max-md:text-[18px]">
+            Super discount on more then 100 USD
+          </h1>
+          <p className="text-[#fff] max-sm:hidden">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit,
+            ullam.
+          </p>
+        </div>
+        <div>
+          <button className="bg-yellow-600 text-[#fff] float-left-[300px] rounded-md p-1 shrink-0 grow-0 w-[120px]">
+            show now
+          </button>
+        </div>
       </div>
     </div>
   );
