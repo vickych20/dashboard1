@@ -17,9 +17,9 @@ import {SiGooglecardboard} from  'react-icons/si'
 
 const Llast = () => {
   return (
-    <div className="font-sans">
-      <h1 className="px-8 font-bold text-[26px]">My cart (3)</h1>
-      <div className="flex flex-wrap items-start justify-center gap-4 max-sm:text-[10px]">
+    <div className="font-sans max-xl:mx-[2rem]">
+      <h1 className=" font-bold text-[26px]">My cart (3)</h1>
+      <div className="flex flex-wrap items-start justify-between gap-4 max-sm:text-[10px]">
         <div className="w-[70%]">
           <div className="flex justify-between max-md:justify-between">
             <div className="flex items-start gap-3 font-sans ">
@@ -145,7 +145,7 @@ const Llast = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-around max-lg:hidden">
+      <div className="flex flex-wrap items-center justify-between max-lg:hidden">
         <div className="flex items-center gap-3">
           <div className="w-[50px] h-[50px] bg-gray-300 rounded-full px-[17px] py-[15px]">
             <GrSecure className="text-[#fff]" />
@@ -176,7 +176,7 @@ const Llast = () => {
       </div>
       <div>
         <h1 className="font-bold max-md:ml-[2rem] max-lg:text-[30px] max-lg:p-[20px] px-8 text-[20px] py-6">saved for later</h1>
-        <div className="flex flex-wrap items-center justify-around w-full">
+        <div className="flex flex-wrap items-center justify-between w-full">
           <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
               <img src={ktm} alt="" className="w-[160px] m-auto p-4" />

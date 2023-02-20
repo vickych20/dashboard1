@@ -9,7 +9,7 @@ import img4 from '../Assets/pc5.jpg';
 
 const Deals = () => {
   return (
-    <div className="w-full flex py-4 font-inter max-sm:h-[140px] ">
+    <div data-aos="fade-in" className="w-full flex py-4 font-inter max-sm:h-[140px] ">
     
       <div className="shadow-md max-sm:h-[100px] w-[290px] py-2 leading-5 max-sm:flex max-sm:w-full max-sm:justify-between max-lg:w-[190px] shrink-0 grow-0 max-md:pb-[100px] md:block">
       <div className='max-sm:leading-3 max-xl:leading-4 max-sm:pt-[20px]'>
@@ -38,7 +38,7 @@ const Deals = () => {
         </div>
       </div>
       
-      <div className="flex items-center shrink-0 gap-4 px-6 overflow-x-clip">
+      <div className="flex items-center gap-4 px-6 shrink-0 overflow-x-clip">
         <div className="text-center border-gray-200 shadow-lg w-[159px] h-[195px] py-6">
           <img src={img1} alt="" className="w-[90px] m-auto" />
           <p>smart watches</p>

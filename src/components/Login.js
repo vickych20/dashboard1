@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import "./login.css";
+import "aos/dist/aos.css";
+
 
 const Login=()=> {
   const initialValues = { username: "", email: "", password: "" };
@@ -46,7 +48,7 @@ const Login=()=> {
   };
 
   return (
-    <div className="container">
+    <div className="container" data-aos="flip-left">
       {Object.keys(formErrors).length === 0 && isSubmit ? (
         <div className="ui message success text-[25px] text-[#1606a9]">
           Signed in successfully

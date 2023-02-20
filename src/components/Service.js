@@ -13,19 +13,24 @@ import { VscPreview } from "react-icons/vsc";
 import { TbWorld } from "react-icons/tb";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Related from "./pages/Related";
+import "aos/dist/aos.css";
+
 
 const Service = () => {
   return (
     <div className="overflow-x-hidden">
-   
-
-    
-      <div className="flex justify-between items-center gap-4 max-md:flex-col">
-        <div>
-          <img src={img1} alt="" className="w-[400px] m-auto"/>
+      <div
+        className="flex items-start justify-between gap-4 mt-6 max-md:flex-col max-md:justify-center"
+        data-aos="fade-up"
+      >
+        <div className="mt-4 max-md:justify-center" data-aos="fade-right">
+          <img
+            src={img1}
+            alt=""
+            className="w-[350px] m-auto "
+          />
           <div>
             <div className="flex items-center gap-3 py-4">
-             
               <img
                 src={img1}
                 alt=""
@@ -49,7 +54,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className=" max-xl-block max-lg:hidden">
+        <div className=" max-xl-block max-lg:hidden" data-aos="fade-down">
           <p className="flex items-center gap-8 text-[#0adb0e] max-md:justify-center">
             <MdLocalGroceryStore />
             <p>In stock</p>
@@ -76,11 +81,11 @@ const Service = () => {
             </p>
           </div>
           <div className="bg-[#edd2a4] flex items-center gap-4 my-4 max-md:justify-center">
-            <div className="border-r-2 border-gray-500 p-2">
+            <div className="p-2 border-r-2 border-gray-500">
               <p>$127.00</p>
               <p>50-100 pcs</p>
             </div>
-            <div className="border-r-2 border-gray-500 p-2">
+            <div className="p-2 border-r-2 border-gray-500">
               <p>$127.00</p>
               <p>50-100 pcs</p>
             </div>
@@ -132,8 +137,11 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className="border-[1px] border-gray-300 rounded-md p-2 w-[350px]">
-          <div className="flex items-center pb-2 gap-8 shadow-md py-4">
+        <div
+          className="border-[1px] border-gray-300 rounded-md p-2 w-[350px]"
+          data-aos="fade-left"
+        >
+          <div className="flex items-center gap-8 py-4 pb-2 shadow-md">
             <div className="border-[1px] border-gray-300 bg-[#a6e0db] p-1 px-4">
               R
             </div>
@@ -165,11 +173,11 @@ const Service = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-start max-md:hidden">
+      <div className="flex items-start max-md:hidden" data-aos="fade-up-right">
         <div className="w-[80%]">
           <Tabs>
             <TabList
-              className="flex items-center gap-[5rem] mx-[3rem]
+              className="flex items-center gap-[5rem]
           pb-4"
             >
               <Tab className="font-bold text-[20px]">Description 1</Tab>
@@ -179,7 +187,7 @@ const Service = () => {
             </TabList>
 
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
+              <h2 className="w-[70%] py-4 bg-[#eef1ee66] p-3">
                 Click on any of the modules on the interactive graphic below to
                 see a more detailed description of the content and download a
                 copy of our bite sized learning brochure. We have highlighted in
@@ -191,7 +199,7 @@ const Service = () => {
               </h2>
             </TabPanel>
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
+              <h2 className="w-[70%] py-4 bg-[#eef1ee66] p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
                 error repellat corrupti dolore iste maxime non quasi nisi
                 pariatur eum! Quia recusandae deleniti molestiae facere a
@@ -203,7 +211,7 @@ const Service = () => {
               </h2>
             </TabPanel>
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
+              <h2 className="w-[70%] py-4 bg-[#eef1ee66] p-3">
                 Discover our latest thinking and experience on matrix management
                 from working with hundreds of organizations and tens of
                 thousands of participants in workshops on this topic around the
@@ -211,7 +219,7 @@ const Service = () => {
               </h2>
             </TabPanel>
             <TabPanel>
-              <h2 className="w-[70%] py-4 mx-[2rem] bg-[#eef1ee66] p-3">
+              <h2 className="w-[70%] py-4 bg-[#eef1ee66] p-3">
                 Group of people getting ready for a virtual meeting Even before
                 COVID 19, 84% of managers and professionals worked in virtual
                 teams at least part of the time. Virtual working is sure to
@@ -222,7 +230,10 @@ const Service = () => {
               </h2>
             </TabPanel>
           </Tabs>
-          <div className="flex items-start mx-[3rem] list-none gap-[rem] py-4 text-[17px] ">
+          <div
+            className="flex items-start list-none gap-[rem] py-4 text-[17px] "
+            data-aos="fade-down-right"
+          >
             <div className="border-[1px] border-gray-300 w-[10rem] bg-gray-200 p-3">
               <li className="border-[1px] border-gray-300 p-1">Model</li>
               <li className="border-[1px] border-gray-300 p-1">Style</li>
@@ -232,15 +243,19 @@ const Service = () => {
             </div>
             <div className="p-4">
               <li className="border-[1px] border-gray-300 p-1">#98676756</li>
-              <li className="border-[1px] border-gray-300 p-1">classic style</li>
-              <li className="border-[1px] border-gray-300 p-1">ISO-856873697</li>
+              <li className="border-[1px] border-gray-300 p-1">
+                classic style
+              </li>
+              <li className="border-[1px] border-gray-300 p-1">
+                ISO-856873697
+              </li>
               <li className="border-[1px] border-gray-300 p-1">
                 34mm * 450mm * 19mm
               </li>
               <li className="border-[1px] border-gray-300">36GB RAM</li>
             </div>
           </div>
-          <div className=" mx-[3rem] leading-6">
+          <div className="leading-9 ">
             <div className="flex items-center gap-2">
               ✔<p>Some great feature name here</p>
             </div>
@@ -255,7 +270,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className="w-[20%] mr-[2rem] flex flex-wrap max-lg:hidden">
+        <div className="w-[20%] flex flex-wrap max-lg:hidden">
           <h1>You may like</h1>
           <div>
             <div className="flex gap-5">
@@ -327,10 +342,8 @@ const Service = () => {
         </div>
       </div>
       <div className="overflow-x-hidden">
-      <Related/>
-
+        <Related />
       </div>
-
     </div>
   );
 };

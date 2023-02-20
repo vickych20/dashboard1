@@ -8,13 +8,15 @@ import { RxCross2 } from "react-icons/rx";
 import Card from './pages/Card';
 import { BiChevronDown } from 'react-icons/bi';
 import { AiOutlineLeft } from "react-icons/ai";
+import "aos/dist/aos.css";
+
 
 
 const Contact = () => {
     return (
       <div className="mx-[0.4rem]">
         <div>
-          <div className="flex items-start justify-start gap-4 text-[#a3a2a2] py-4 mx-[5rem] max-sm:hidden">
+          <div className="flex items-start justify-start gap-6 text-[#a3a2a2] py-4 max-sm:hidden">
             <div className="flex items-center gap-2">
               <p>Home</p>
               <AiOutlineRight className="text-[12px]" />
@@ -32,9 +34,12 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-start justify-center">
-          <div className="catee shadow-md max-md:hidden">
-            <div className="flex justify-between items-center">
+        <div className="flex items-start justify-between gap-8">
+          <div
+            className="shadow-md catee max-md:hidden"
+            data-aos="zoom-in-right"
+          >
+            <div className="flex items-center justify-between">
               <h1 className="font-bold text-[18px]">Category</h1>
 
               <AiOutlineRight />
@@ -43,86 +48,86 @@ const Contact = () => {
             <p className="text-gray-400">Electronics</p>
             <p className="text-gray-400">smartphones</p>
             <p className="text-gray-400">modern tech</p>
-            <p className='text-[#0dc7ff]'>See all</p>
+            <p className="text-[#0dc7ff]">See all</p>
             <div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h1 className="font-bold text-[18px]">Brands</h1>
 
                 <AiOutlineRight />
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">Samsung</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">lenovo</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">pocco</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">Mobile</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">Apple</p>
                 </div>
               </div>
-              <p className='text-[#0dc7ff]'>See all</p>
+              <p className="text-[#0dc7ff]">See all</p>
             </div>
             <div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h1 className="font-bold text-[18px]">Features</h1>
 
                 <AiOutlineRight />
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">Metallic</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">plastic cover</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">8GB Ram</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">Super power</p>
                 </div>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex items-center gap-2">
                 <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                 <div>
                   <p className="text-gray-400">Apple</p>
                 </div>
               </div>
-              <p className='text-[#0dc7ff]'>See all</p>
+              <p className="text-[#0dc7ff]">See all</p>
             </div>
             <div>
               <div>
-                <div className="flex justify-between items-center">
+                <div className="flex items-center justify-between">
                   <p className="font-bold text-[18px]">price range</p>
                   <AiOutlineRight />
                 </div>
@@ -146,98 +151,98 @@ const Contact = () => {
                 </button>
               </div>
               <div>
-                <div className="flex justify-between items-center">
+                <div className="flex items-center justify-between">
                   <h1 className="font-bold text-[18px]">Features</h1>
 
                   <AiOutlineRight />
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
                     <p className="text-gray-400">Metallic</p>
                   </div>
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
                     <p className="text-gray-400">plastic cover</p>
                   </div>
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
                     <p className="text-gray-400">8GB Ram</p>
                   </div>
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
                     <p className="text-gray-400">Super power</p>
                   </div>
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300 rounded-full"></div>
                   <div>
                     <p className="text-gray-400">Apple</p>
                   </div>
                 </div>
-                <p className='text-[#0dc7ff]'>See all</p>
+                <p className="text-[#0dc7ff]">See all</p>
               </div>
               <div>
-                <div className="flex justify-between items-center">
+                <div className="flex items-center justify-between">
                   <h1 className="font-bold text-[18px]">Ratings</h1>
 
                   <AiOutlineRight />
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                   <div>
                     <p className="flex gap-2">
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar className='text-[#ffcb0d]'/>
+                      <AiFillStar className="text-[#ffcb0d]" />
+                      <AiFillStar className="text-[#ffcb0d]" />
+                      <AiFillStar className="text-[#ffcb0d]" />
+                      <AiFillStar className="text-[#ffcb0d]" />
                       <AiFillStar />
                     </p>
                   </div>
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                   <div>
                     <p className="flex gap-2">
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar />
-                      <AiFillStar />
-                    </p>
-                  </div>
-                </div>
-                <div className="flex gap-2 items-center">
-                  <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
-                  <div>
-                    <p className="flex gap-2">
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar />
+                      <AiFillStar className="text-[#ffcb0d]" />
+                      <AiFillStar className="text-[#ffcb0d]" />
+                      <AiFillStar className="text-[#ffcb0d]" />
                       <AiFillStar />
                       <AiFillStar />
                     </p>
                   </div>
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                   <div>
                     <p className="flex gap-2">
-                      <AiFillStar className='text-[#ffcb0d]'/>
-                      <AiFillStar />
+                      <AiFillStar className="text-[#ffcb0d]" />
+                      <AiFillStar className="text-[#ffcb0d]" />
                       <AiFillStar />
                       <AiFillStar />
                       <AiFillStar />
                     </p>
                   </div>
                 </div>
-                <div className="flex gap-2 items-center">
+                <div className="flex items-center gap-2">
+                  <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
+                  <div>
+                    <p className="flex gap-2">
+                      <AiFillStar className="text-[#ffcb0d]" />
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
                   <div className="w-[14px] h-[14px] border-[1px] border-gray-300"></div>
                   <div>
                     <p className="flex gap-2">
@@ -310,7 +315,6 @@ const Contact = () => {
             <p>
               {" "}
               <Card />
-            
               <div className="flex justify-end items-center py-4 mr-[4rem] gap-4">
                 <div>
                   <button className="border-[1px] border-[#8f9fab] flex items-center gap-2 rounded-sm text-[13px] px-2 text-gray-400">

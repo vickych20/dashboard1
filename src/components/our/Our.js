@@ -5,12 +5,14 @@ import img2 from "../Assets/o2.png";
 import img3 from "../Assets/o1.png";
 import img43 from "../Assets/oq1.png";
 import img4 from "../Assets/o0.png";
+import "aos/dist/aos.css";
+
 
 const Our = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <div>
-        <h1 className="font-bold p-4">Our Extra service</h1>
+        <h1 className="py-4 font-extrabold text-[20px]">Our Extra service</h1>
       </div>
      
 

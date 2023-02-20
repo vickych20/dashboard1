@@ -7,20 +7,22 @@ import img5 from '../Assets/pc0.png';
 import img6 from '../Assets/pc3.jpg';
 import { GiEternalLove } from 'react-icons/gi';
 import { AiFillStar } from "react-icons/ai";
+import "aos/dist/aos.css";
+
 
 const Mcard = () => {
     return (
-      <div className="max-sm:w-full about">
+      <div className="max-sm:w-full about" data-aos="zoom-out-down">
         <div className="flex items-center shadow border-[1px] border-gray-400 mt-4  w-full max-md:w-full cg">
           <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases max-sm:leading-4 max-sm:w-[95px]">
             <img src={img2} alt="" className="max-w-[150px] max-md:w-[100px]" />
           </div>
-          <div className=" flex-wrap max-sm:leading-5 ">
+          <div className="flex-wrap max-sm:leading-5">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
               </p>
-              <GiEternalLove />
+              <GiEternalLove className="text-fuchsia-500 mr-[1rem] mt-1" />
             </div>
             <p>
               <span className="text-[17px] font-bold">$998.00</span>{" "}
@@ -37,7 +39,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="max-md:hidden flex-wrap flex text-gray-400">
+            <p className="flex flex-wrap text-gray-400 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -49,12 +51,12 @@ const Mcard = () => {
           <div className="w-[150px] grow-0 shrink-0 flex flex-wrap clases max-sm:w-[95px]">
             <img src={img3} alt="" className="max-w-[150px] max-md:w-[100px]" />
           </div>
-          <div className=" flex-wrap max-sm:leading-5">
+          <div className="flex-wrap max-sm:leading-5">
             <div className="flex justify-between">
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
               </p>
-              <GiEternalLove />
+              <GiEternalLove className="text-fuchsia-500 mr-[1rem] mt-1" />
             </div>
             <p>
               <span className="text-[17px] font-bold">$998.00</span>{" "}
@@ -71,7 +73,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden text-gray-400">
+            <p className="leading-5 text-gray-400 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -88,7 +90,7 @@ const Mcard = () => {
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
               </p>
-              <GiEternalLove />
+              <GiEternalLove className="text-fuchsia-500 mr-[1rem] mt-1" />
             </div>
             <p>
               <span className="text-[17px] font-bold">$998.00</span>{" "}
@@ -105,7 +107,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden text-gray-400">
+            <p className="leading-5 text-gray-400 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -122,7 +124,7 @@ const Mcard = () => {
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
               </p>
-              <GiEternalLove />
+              <GiEternalLove className="text-fuchsia-500 mr-[1rem] mt-1" />
             </div>
             <p>
               <span className="text-[17px] font-bold">$998.00</span>{" "}
@@ -139,7 +141,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden text-gray-400">
+            <p className="leading-5 text-gray-400 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -156,7 +158,7 @@ const Mcard = () => {
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
               </p>
-              <GiEternalLove />
+              <GiEternalLove className="text-fuchsia-500 mr-[1rem] mt-1" />
             </div>
             <p>
               <span className="text-[17px] font-bold">$998.00</span>{" "}
@@ -173,7 +175,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden text-gray-400">
+            <p className="leading-5 text-gray-400 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -194,7 +196,7 @@ const Mcard = () => {
               <p className="font-bold max-md:text-[12px]">
                 Canon Cmera EOS 2000,Black 10x zoom
               </p>
-              <GiEternalLove />
+              <GiEternalLove className="text-fuchsia-500 mr-[1rem] mt-1" />
             </div>
             <p>
               <span className="text-[17px] font-bold">$998.00</span>{" "}
@@ -211,7 +213,7 @@ const Mcard = () => {
                 Free Shipping
               </span>
             </p>
-            <p className="leading-5 max-md:hidden text-gray-400">
+            <p className="leading-5 text-gray-400 max-md:hidden">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!

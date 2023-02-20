@@ -3,11 +3,14 @@ import "./automobile.css";
 import img1 from "../Assets/banner.png";
 import { IoMdPeople } from "react-icons/io";
 
+
+
 const Automobile = () => {
+ 
   return (
     <div className="shadow-lg max-md:flex-col flex justify-center items-start md:py-1  max-2xl:justify-between  min-sm:justify-between gap-[46px] flex-wrap">
       <div className="w-[240px]">
-        <ul className="max-lg:hidden max-md:gap-5">
+        <ul className="max-lg:hidden max-md:gap-5" data-aos="fade-right">
           <li className="my-2">Automobile</li>
           <li className="py-1 hover:bg-[#C7E1FF] hover:">Clothes and wear</li>
           <li className="py-1 hover:bg-[#C7E1FF] hover:">Home interiors</li>
@@ -19,19 +22,22 @@ const Automobile = () => {
           <li className="py-1 hover:bg-[#C7E1FF] hover:">More category</li>
         </ul>
       </div>
-      <div className="py-2 max-lg:w-full">
-        <img src={img1} alt="" className="max-lg:w-full"/>
+      <div className="py-2 max-lg:w-full" >
+        <img src={img1} alt="" className="max-lg:w-full" />
       </div>
-      <div className="py-2 max-md:flex md:justify-around small max-sm:justify-center max-md:justify-center max-xl:hidden">
+      <div
+        className="py-2 max-md:flex md:justify-around small max-sm:justify-center max-md:justify-center max-xl:hidden"
+        data-aos="fade-left"
+      >
         <div className="bg-gray-300 p-8 rounded-lg w-[200px] my-2 max-md:hidden max-lg:w-[90px]">
           <span className="flex gap-4 ">
             <IoMdPeople className="text-[#fff] rounded-3xl text-[15px] bg-red-500 w-[30px] h-[20px] " />
             Hi,users lets get start
           </span>
-           {/* <button className="bg-red-300 hover:bg-gray-400 text-gray-800 font-bold  px-4 rounded inline-flex items-center">
+          {/* <button className="inline-flex items-center px-4 font-bold text-gray-800 bg-red-300 rounded hover:bg-gray-400">
             <span>Join Now</span>
           </button>
-          <button className="bg-red-300 hover:bg-gray-400 text-gray-800 font-bold  px-4 rounded inline-flex items-center">
+          <button className="inline-flex items-center px-4 font-bold text-gray-800 bg-red-300 rounded hover:bg-gray-400">
             <span>Login Now</span>
           </button>  */}
         </div>

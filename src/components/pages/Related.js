@@ -5,12 +5,14 @@ import img3 from "../Assets/m0.png";
 import img4 from "../Assets/m1.png";
 import img5 from "../Assets/m2.png";
 import img6 from "../Assets/m7.png";
+import "aos/dist/aos.css";
+
 
 const Related = () => {
   return (
-    <div className="mx-[3rem]">
+    <div className="" data-aos="fade-down-left">
       <h1 className="font-bold text-[25px] py-4">Related Product</h1>
-      <div className="flex items-center gap-4 justify-evenly flex-wrap">
+      <div className="flex flex-wrap items-center gap-4 justify-evenly">
         <div>
           <img src={img1} alt="" className="w-[300px]" />
           <p>Apple watch series space gray</p>
@@ -54,7 +56,10 @@ const Related = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-between h-24 px-10 py-4 mt-8 m-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 max-[500px]:hidden">
+      <div
+        className="flex items-center justify-between h-24 px-10 py-4 m-2 mt-8 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 max-sm:hidden"
+        data-aos="fade-down-right"
+      >
         <div>
           <h1 className="font-bold text-[26px] text-[#fff] max-md:text-[18px]">
             Super discount on more then 100 USD

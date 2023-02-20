@@ -13,6 +13,7 @@ import Subscribe from "./components/subscribe/Subscribe";
 import Footer from "./components/footer/Footer";
 import Recommened from "./components/recommened/Recommened";
 
+
 const Home = () => {
   return (
     <div className="max-w-[1200px] m-auto overflow-x-hidden max-xl:mx-[2rem]">
@@ -22,6 +23,22 @@ const Home = () => {
       <Consumer />
       <Easy />
       <Recommended />
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
       <Recommened />
      
       <Our />

@@ -7,20 +7,28 @@ import img3 from '../Assets/mo2.jpg';
 import img4 from '../Assets/mo4.webp';
 import img5 from '../Assets/pc0.png';
 import img6 from '../Assets/pc3.jpg';
+import "aos/dist/aos.css";
+
 
 
 const Card = () => {
     return (
       <div>
-        <div className='flex items-center justify-start gap-4 flex-wrap max-sm:justify-center'>
+        <div
+          className="flex flex-wrap items-center justify-start gap-4 max-sm:justify-center"
+          data-aos="zoom-out-down"
+        >
           <div className="shadow-lg w-[220px] p-4">
             <div className="w-[100px] m-auto">
               <img src={img1} alt="" className="w-full" />
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -33,8 +41,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -44,8 +52,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -58,8 +69,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -69,8 +80,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -83,8 +97,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -94,8 +108,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -108,8 +125,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -119,8 +136,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -133,8 +153,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -144,8 +164,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -158,8 +181,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -169,8 +192,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -183,8 +209,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -194,8 +220,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -208,8 +237,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -219,8 +248,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -233,8 +265,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -244,8 +276,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -258,8 +293,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -269,8 +304,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -283,8 +321,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -294,8 +332,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -308,8 +349,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -319,8 +360,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -333,8 +377,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -344,8 +388,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -358,8 +405,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -369,8 +416,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -383,8 +433,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>
@@ -394,8 +444,11 @@ const Card = () => {
             </div>
             <div className="flex items-center px-2 py-4">
               <div>
-                <p className='font-bold'>
-                  $99.50 <span className='text-[14px] text-[#9a9da0] line-through'>$ 1128.00</span>
+                <p className="font-bold">
+                  $99.50{" "}
+                  <span className="text-[14px] text-[#9a9da0] line-through">
+                    $ 1128.00
+                  </span>
                 </p>
                 <p className="flex items-center text-[#e47200] gap-1">
                   <AiFillStar />
@@ -408,8 +461,8 @@ const Card = () => {
                   GoPro Hero6 4k Action Camera-Black
                 </p>
               </div>
-              <div className='mb-[3rem]'>
-                <BsHeart className='text-[#0d99ff]'/>
+              <div className="mb-[3rem]">
+                <BsHeart className="text-[#0d99ff]" />
               </div>
             </div>
           </div>

@@ -1,10 +1,12 @@
 import React from 'react';
 import './easy.css';
+import "aos/dist/aos.css";
+
 
 const Easy = () => {
   return (
     <div className="btn flex items-center justify-center max-md:h-[200px] mt-4 max-[470px]:hidden">
-      <div className="max-w-[100%] block flex-wrap ">
+      <div className="max-w-[100%] block flex-wrap " data-aos="zoom-in-right">
         <h1 className="text-[30px] font-bold text-[#fff] px-[10px] max-sm:text-[30px]">
           An easy way to send request to all suppliers
         </h1>
@@ -16,7 +18,10 @@ const Easy = () => {
           assumenda{" "}
         </p>
       </div>
-      <div className="bg-[#fff] max-w-[50%] px-[50px] max-lg:hidden max-xl:mr-[3rem] rounded-lg p-6">
+      <div
+        className="bg-[#fff] max-w-[50%] px-[50px] max-lg:hidden max-xl:mr-[3rem] rounded-lg p-6"
+        data-aos="fade-left"
+      >
         <h1 className="text-[20px] font-bold">send quote to suppliers</h1>
         <input
           type="text"
