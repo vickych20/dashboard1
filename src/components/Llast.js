@@ -175,7 +175,7 @@ const Llast = () => {
         </div>
       </div>
       <div>
-        <h1 className="font-bold max-md:ml-[2rem] max-lg:text-[30px] max-lg:p-[20px] px-8 text-[20px] py-6">saved for later</h1>
+        <h1 className="font-bold max-md:ml-[2rem] max-lg:text-[30px] max-lg:p-[20px] text-[30px] py-6">saved for later</h1>
         <div className="flex flex-wrap items-center justify-between w-full">
           <div className="w-full sm:w-[180px] sm:h-[260px] border-[1px] border-gray-200 shadow-sm flex sm:block">
             <div className="">
